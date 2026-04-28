@@ -1,0 +1,115 @@
+/* ===========================
+   Base Typography
+   =========================== */
+
+body {
+  margin: 1.5em;
+  font-family: sans-serif;
+  line-height: 1.45;
+}
+
+/* Normalize base font size across all content */
+.entry, .sense, .sense-body, .examples, .ex,
+.hi-en, .rom, .gloss, .cn, .cm {
+  font-size: 1em;
+}
+
+.hw {
+  font-size: 1.8em;
+  margin-bottom: 0.2em;
+}
+
+.roman {
+  font-weight: normal;
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
+.pos {
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+/* ===========================
+   Sense Structure
+   =========================== */
+
+.sense {
+  margin-bottom: 1.5em;
+}
+
+.sense-number {
+  font-weight: bold;
+  float: left;
+  width: 2em;
+}
+
+.sense-body {
+  margin-left: 2.2em;
+}
+
+.gloss {
+  margin-bottom: 0.3em;
+}
+
+.syn-inline {
+  font-weight: normal;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.sense-inline {
+  margin-bottom: 0.4em;
+}
+
+.sense-block {
+  margin-bottom: 0.6em;
+}
+
+.cm, .cn {
+  margin-bottom: 0.3em;
+}
+
+/* ===========================
+   Examples
+   =========================== */
+
+.examples {
+  margin-top: 0.6em;
+}
+
+.ex {
+  margin-bottom: 1em;
+}
+
+.hi-en {
+  display: block;
+  margin-bottom: 0.15em;
+}
+
+.rom {
+  display: block;
+  margin-bottom: 0.15em;
+  opacity: 0.85;
+}
+
+/* Register + Tense (intentionally smaller) */
+.meta {
+  display: block;
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
+/* ===========================
+   Morphology Section
+   =========================== */
+
+.morph {
+  font-size: 0.9em;
+  margin-top: 1.5em;
+  opacity: 0.9;
+}
+
+.morph-row {
+  margin-bottom: 0.4em;
+}
